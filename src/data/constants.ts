@@ -1,12 +1,11 @@
 export const towns = [
   { name: 'Milton', slug: 'milton', businesses: 0 },
-  { name: 'Navarre', slug: 'navarre', businesses: 0 },
   { name: 'Gulf Breeze', slug: 'gulf-breeze', businesses: 0 },
-  { name: 'Pace', slug: 'pace', businesses: 0 },
+  { name: 'Navarre', slug: 'navarre', businesses: 0 },
   { name: 'Jay', slug: 'jay', businesses: 0 },
+  { name: 'Pace', slug: 'pace', businesses: 0 },
   { name: 'Bagdad', slug: 'bagdad', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
